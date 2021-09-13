@@ -22,9 +22,6 @@ class CalcController extends Controller
         return view(
             'message.calcs',
             [
-                'num' => $num,
-                'num2' => $num2,
-                'colc' => $colc,
                 'result' => $result
             ]
         );
